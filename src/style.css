@@ -2,6 +2,7 @@
 style.css
 ----------
 
+Test pour OpenClassroom
 Par MaX Verville
 */
 
@@ -18,6 +19,15 @@ Par MaX Verville
 
 }
 
+body
+{
+    background-color: #636363;
+    background-image: url(../img/arcanine.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 p
 {
     color: blue;
@@ -25,6 +35,8 @@ p
     font-family: 'cac_champagneregular', Arial, serif;
     font-style: oblique;
     text-decoration: line-through;
+    background-color: rgba(255, 0, 0, 0.9);
+    text-shadow: 6px 6px 6px black;
 }
 
 h1, em
@@ -34,6 +46,10 @@ h1, em
     font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
     font-style: italic;
     text-align: right;
+    border: 3px white dashed;
+    border-bottom: 3px white solid;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 3px black;
     }
 
 #bienvenue
@@ -53,4 +69,33 @@ h1, em
 .miniMarowak
 {
     float: left;
+    opacity: 0.5;
+}
+
+a
+{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+a:hover
+{
+   text-decoration: underline;
+    color: green;
+}
+
+a:active
+{
+    background-color: #FFCC66;
+}
+
+a:focus
+{
+    background-color: #23DA88;
+}
+
+a:visited
+{
+    color: #AAA;
 }
