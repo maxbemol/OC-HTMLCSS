@@ -1,0 +1,75 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#central
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#foot
+{
+    width: 95%;
+    text-align: right;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+aside
+{
+    width: 90%;
+}
+
+article
+{
+    width: 90%;
+}
+
+h1
+{
+   background-color: lightgray; 
+}
+
+h2
+{
+    background-color: lightgray; 
+}
+
+ul
+{
+    background-color: lightgray; 
+    width: 250px;
+}
+
+p
+{
+    background-color: lightgray; 
+    width: 100%;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#depasse
+{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    min-width: 2px;
+    text-align: left;
+    overflow: auto;
+    word-wrap: break-word;
+}
